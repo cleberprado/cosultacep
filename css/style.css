@@ -1,0 +1,35 @@
+.card-top{
+
+    margin-top: 3%;
+
+
+}
+.autor{
+
+position: fixed;
+margin-left: 90%;
+margin-top: 2%;
+
+}
+
+.img_mapa{
+
+    animation: myAnim 2s ease 0s 1 normal forwards;
+    box-shadow: 8px 11px 7px 0px #000;
+width: 50%;
+margin-left: 25%;
+}
+
+
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
